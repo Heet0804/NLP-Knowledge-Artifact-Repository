@@ -3,8 +3,8 @@
 This repository represents the collaborative work of the NLP Knowledge Engineering Team. 
 
 ## Team Members
-1. **Heet Lakhani**
-2. **[Partner's Name]**
+1. **Anand Raghvani (PRN: 124BTCM1113)**
+2. **Heet Lakhani (PRN: 124BTCM1105)**
 
 ## Individual Contribution Breakdown
 
