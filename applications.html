@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section D: Applications | NLP Repository</title>
+    <style>
+        :root { 
+            --bg: #121212; 
+            --surface: #1e1e1e; 
+            --accent: #10b981; 
+            --text: #e2e8f0; 
+            --text-muted: #94a3b8;
+        }
+        
+        body { 
+            margin: 0; 
+            font-family: 'Inter', sans-serif; 
+            background: var(--bg); 
+            color: var(--text); 
+        }
+        
+        .main-header { 
+            padding: 4rem 2rem; 
+            text-align: center; 
+            background: linear-gradient(180deg, #1e1e1e 0%, #121212 100%); 
+            border-bottom: 2px solid var(--accent); 
+        }
+        
+        .main-header h1 { 
+            color: var(--accent); 
+            margin: 0;
+        }
+        
+        .back-link { 
+            color: var(--accent); 
+            text-decoration: none; 
+            display: inline-block; 
+            margin: 20px;
+            font-weight: 600;
+        }
+        
+        .grid-container { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); 
+            gap: 2rem; 
+            padding: 3rem; 
+            max-width: 1200px; 
+            margin: auto; 
+        }
+        
+        .artifact-box { 
+            padding: 2rem; 
+            border-radius: 12px; 
+            background: var(--surface); 
+            border: 1px solid #333; 
+            transition: 0.4s; 
+        }
+        
+        .artifact-box:hover {
+            border-color: var(--accent);
+        }
+        
+        .artifact-box h2 { 
+            color: var(--accent); 
+            margin-top: 0; 
+        }
+        
+        .artifact-box p { 
+            color: var(--text-muted); 
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <header class="main-header">
+        <a href="index.html" class="back-link">← Back to Dashboard</a>
+        <h1>Section D: Real-World Applications</h1>
+    </header>
+    
+    <div class="grid-container">
+        <!-- 1. Search Engines -->
+        <div class="artifact-box">
+    <h2>1. Search Engines</h2>
+    <p><strong>Relevant NLP Concepts:</strong> Tokenization, TF-IDF, Word Embeddings, Transformer-based Representations.<br>
+    <strong>Why Needed:</strong> To understand user queries, process keywords efficiently, and retrieve the most relevant documents.<br>
+    <strong>Expected Benefits:</strong> Faster information retrieval, improved search accuracy, and better user experience.</p>
+</div>
+
+        <!-- 2. Chatbots -->
+        <div class="artifact-box">
+    <h2>2. Chatbots</h2>
+    <p><strong>Relevant NLP Concepts:</strong> Tokenization, Word Embeddings, Contextual Embeddings, Transformer-based Representations.<br>
+    <strong>Why Needed:</strong> To understand user input, maintain conversational context, and generate meaningful responses.<br>
+    <strong>Expected Benefits:</strong> 24×7 customer support, faster response time, and improved customer satisfaction.</p>
+</div>
+
+        <!-- 3. Sentiment Analysis -->
+        <div class="artifact-box">
+    <h2>3. Sentiment Analysis</h2>
+    <p><strong>Relevant NLP Concepts:</strong> Text Cleaning, TF-IDF, Word Embeddings, Neural Language Models.<br>
+    <strong>Why Needed:</strong> To classify opinions expressed in reviews, feedback, or social media posts as positive, negative, or neutral.<br>
+    <strong>Expected Benefits:</strong> Better decision making, brand monitoring, and customer feedback analysis.</p>
+</div>
+
+        <!-- 4. Machine Translation -->
+        <div class="artifact-box">
+    <h2>4. Machine Translation</h2>
+    <p><strong>Relevant NLP Concepts:</strong> Tokenization, Word Embeddings, FastText, Transformer-based Representations.<br>
+    <strong>Why Needed:</strong> To translate text accurately between different languages while preserving meaning and context.<br>
+    <strong>Expected Benefits:</strong> Improved multilingual communication, accessibility, and global collaboration.</p>
+</div>
+
+        <!-- 5. Text Summarization -->
+        <div class="artifact-box">
+    <h2>5. Text Summarization</h2>
+    <p><strong>Relevant NLP Concepts:</strong> Tokenization, TF-IDF, Word Embeddings, Transformer-based Representations.<br>
+    <strong>Why Needed:</strong> To condense lengthy documents into concise summaries while preserving the important information.<br>
+    <strong>Expected Benefits:</strong> Saves reading time, improves information accessibility, and supports faster decision-making.</p>
+</div>
+    </div>
+</body>
+</html>
