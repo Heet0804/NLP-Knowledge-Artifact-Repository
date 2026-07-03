@@ -19,47 +19,185 @@
     <h1>Section A: Concept Cards</h1>
     
     <div class="grid">
+
         <!-- Heet Lakhani's Contributions -->
-        <div class="card">
-            <span class="member-tag">Heet Lakhani (124BTCM1105)</span>
-            <h2>1. Tokenization</h2>
-            <p><strong>Definition:</strong> Breaking down text into smaller units (tokens) like words or subwords.</p>
-            <p><strong>Purpose:</strong> Fundamental step to make text processable by algorithms.</p>
-            <p><strong>Example:</strong> "Hello world" → ["Hello", "world"]</p>
-        </div>
 
         <div class="card">
-            <span class="member-tag">Heet Lakhani (124BTCM1105)</span>
-            <h2>2. Bag of Words (BoW)</h2>
-            <p><strong>Definition:</strong> A simple representation model that counts word frequencies regardless of order.</p>
-            <p><strong>Why:</strong> Provides a numerical basis for classification tasks.</p>
-            <p><strong>Limitations:</strong> Ignores grammar, structure, and context.</p>
-        </div>
+    <span class="member-tag">Heet Lakhani (124BTCM1105)</span>
+    <h2>1. Tokenization</h2>
+    <p><strong>Definition:</strong> Tokenization is the process of breaking text into smaller units called tokens, such as words, subwords, or characters.</p>
+    <p><strong>Purpose:</strong> It prepares raw Gujarati text for NLP models by converting sentences into processable units for further analysis.</p>
+    <p><strong>Working Principle:</strong> The input sentence is divided into meaningful tokens using whitespace, punctuation, or subword tokenization algorithms. These tokens serve as the basic input for NLP models.</p>
+    <p><strong>Example:</strong> "હું આજે કોલેજ જઈશ" → ["હું", "આજે", "કોલેજ", "જઈશ"]</p>
+    <p><strong>Advantages:</strong></p>
+    <ul>
+        <li>Simplifies text processing.</li>
+        <li>Reduces sentence complexity.</li>
+        <li>Supports efficient language modeling.</li>
+        <li>Provides structured input for autocomplete systems.</li>
+    </ul>
+    <p><strong>Limitations:</strong></p>
+    <ul>
+        <li>Incorrect tokenization may reduce prediction accuracy.</li>
+        <li>Complex languages require advanced tokenization techniques.</li>
+        <li>Different tokenization methods may produce different outputs.</li>
+    </ul>
+    <p><strong>Applications:</strong></p>
+    <ul>
+        <li>Gujarati Autocomplete & Predictive Text</li>
+        <li>Machine Translation</li>
+        <li>Chatbots</li>
+        <li>Speech Recognition</li>
+    </ul>
+</div>
 
         <div class="card">
-            <span class="member-tag">Heet Lakhani (124BTCM1105)</span>
-            <h2>3. Word Embeddings</h2>
-            <p><strong>Definition:</strong> Dense vector representation of words in continuous vector space.</p>
-            <p><strong>How:</strong> Maps similar words to nearby points in geometric space.</p>
-            <p><strong>Application:</strong> Sentiment analysis, recommendation engines.</p>
-        </div>
+    <span class="member-tag">Heet Lakhani (124BTCM1105)</span>
+    <h2>2. Word Embeddings</h2>
+    <p><strong>Definition:</strong> Word Embeddings are dense numerical vector representations of words that capture their semantic meaning and relationships.</p>
+    <p><strong>Purpose:</strong> They convert Gujarati words into meaningful numerical vectors so that NLP models can understand similarities between words.</p>
+    <p><strong>Working Principle:</strong> Words appearing in similar contexts are assigned similar vector representations in a continuous vector space during model training.</p>
+    <p><strong>Example:</strong> "રાજા" and "રાણી" have similar vector representations because they appear in related contexts.</p>
+    <p><strong>Advantages:</strong></p>
+    <ul>
+        <li>Captures semantic relationships between words.</li>
+        <li>Reduces data dimensionality.</li>
+        <li>Improves prediction accuracy.</li>
+        <li>Represents words efficiently.</li>
+    </ul>
+    <p><strong>Limitations:</strong></p>
+    <ul>
+        <li>Assigns only one vector to each word.</li>
+        <li>Cannot understand changing meanings in different contexts.</li>
+        <li>Requires sufficient training data.</li>
+    </ul>
+    <p><strong>Applications:</strong></p>
+    <ul>
+        <li>Gujarati Autocomplete & Predictive Text</li>
+        <li>Semantic Search</li>
+        <li>Recommendation Systems</li>
+        <li>Machine Translation</li>
+    </ul>
+</div>
+
+        <div class="card">
+    <span class="member-tag">Heet Lakhani (124BTCM1105)</span>
+    <h2>3. Contextual Embeddings</h2>
+    <p><strong>Definition:</strong> Contextual Embeddings generate different vector representations for the same word depending on its surrounding context.</p>
+    <p><strong>Purpose:</strong> They help NLP models understand the correct meaning of words based on the complete sentence.</p>
+    <p><strong>Working Principle:</strong> Transformer-based models analyze surrounding words and generate context-aware embeddings for every word in a sentence.</p>
+    <p><strong>Example:</strong> The word "બેંક" represents a financial institution in one sentence and a river bank in another, depending on context.</p>
+    <p><strong>Advantages:</strong></p>
+    <ul>
+        <li>Understands context effectively.</li>
+        <li>Handles ambiguous words.</li>
+        <li>Produces highly accurate predictions.</li>
+        <li>Improves language understanding.</li>
+    </ul>
+    <p><strong>Limitations:</strong></p>
+    <ul>
+        <li>Requires high computational resources.</li>
+        <li>Consumes more memory.</li>
+        <li>Training is time-consuming.</li>
+    </ul>
+    <p><strong>Applications:</strong></p>
+    <ul>
+        <li>Gujarati Predictive Text</li>
+        <li>Conversational AI</li>
+        <li>Machine Translation</li>
+        <li>Question Answering Systems</li>
+    </ul>
+</div>
 
         <!-- Anand Raghvani's Contributions -->
-        <div class="card">
-            <span class="member-tag">Anand Raghvani (124BTCM1113)</span>
-            <h2>4. Transformer-based Representations</h2>
-            <p><strong>Definition:</strong> Models using self-attention to capture long-range dependencies.</p>
-            <p><strong>Working:</strong> Learns context by weighing the influence of all words in a sequence simultaneously.</p>
-            <p><strong>Application:</strong> Modern LLMs (BERT, GPT).</p>
-        </div>
+
+       <div class="card">
+    <span class="member-tag">Anand Raghvani (124BTCM1113)</span>
+    <h2>4. FastText</h2>
+    <p><strong>Definition:</strong> FastText is a word embedding technique that represents words using character-level n-grams instead of complete words.</p>
+    <p><strong>Purpose:</strong> It helps NLP models understand unseen Gujarati words and spelling variations more effectively.</p>
+    <p><strong>Working Principle:</strong> FastText learns embeddings for character n-grams and combines them to generate the final word representation.</p>
+    <p><strong>Example:</strong> "ગુજરાત" and "ગુજરાતી" share common character sequences, enabling better word understanding.</p>
+    <p><strong>Advantages:</strong></p>
+    <ul>
+        <li>Handles unknown words effectively.</li>
+        <li>Works well for regional languages.</li>
+        <li>Improves prediction accuracy.</li>
+        <li>Captures subword information.</li>
+    </ul>
+    <p><strong>Limitations:</strong></p>
+    <ul>
+        <li>Consumes more memory.</li>
+        <li>Training is slower than Word2Vec.</li>
+        <li>Requires additional computation.</li>
+    </ul>
+    <p><strong>Applications:</strong></p>
+    <ul>
+        <li>Gujarati Autocomplete</li>
+        <li>Spell Checking</li>
+        <li>Regional Language Processing</li>
+        <li>Text Classification</li>
+    </ul>
+</div>
 
         <div class="card">
-            <span class="member-tag">Anand Raghvani (124BTCM1113)</span>
-            <h2>5. Case Normalization</h2>
-            <p><strong>Definition:</strong> Converting all text to a uniform case (usually lowercase).</p>
-            <p><strong>Purpose:</strong> Reduces vocabulary size; treats "Apple" and "apple" as the same token.</p>
-            <p><strong>Example:</strong> "NLP is Great" → "nlp is great"</p>
-        </div>
+    <span class="member-tag">Anand Raghvani (124BTCM1113)</span>
+    <h2>5. Neural Language Models</h2>
+    <p><strong>Definition:</strong> Neural Language Models use neural networks to learn patterns in word sequences and predict future words.</p>
+    <p><strong>Purpose:</strong> They estimate the probability of the next word for accurate autocomplete and predictive text generation.</p>
+    <p><strong>Working Principle:</strong> The model analyzes previously typed words and predicts the most probable next word using learned language patterns.</p>
+    <p><strong>Example:</strong> Input: "હું આજે" → Prediction: "કોલેજ".</p>
+    <p><strong>Advantages:</strong></p>
+    <ul>
+        <li>Learns complex language patterns.</li>
+        <li>Provides accurate predictions.</li>
+        <li>Supports contextual understanding.</li>
+        <li>Improves user typing experience.</li>
+    </ul>
+    <p><strong>Limitations:</strong></p>
+    <ul>
+        <li>Requires large datasets.</li>
+        <li>Needs high computational power.</li>
+        <li>Training can be time-consuming.</li>
+    </ul>
+    <p><strong>Applications:</strong></p>
+    <ul>
+        <li>Autocomplete Systems</li>
+        <li>Predictive Keyboards</li>
+        <li>Chatbots</li>
+        <li>Speech Recognition</li>
+    </ul>
+</div>
+
+        <div class="card">
+    <span class="member-tag">Anand Raghvani (124BTCM1113)</span>
+    <h2>6. Transformer-based Representations</h2>
+    <p><strong>Definition:</strong> Transformer-based Representations use the self-attention mechanism to understand relationships between all words in a sentence simultaneously.</p>
+    <p><strong>Purpose:</strong> They improve contextual understanding and enable accurate next-word prediction in modern NLP systems.</p>
+    <p><strong>Working Principle:</strong> The transformer assigns attention scores to every word, allowing the model to capture long-range dependencies efficiently.</p>
+    <p><strong>Example:</strong> Input: "હું આજે કોલેજ" → Prediction: "જઈશ".</p>
+    <p><strong>Advantages:</strong></p>
+    <ul>
+        <li>Captures long-range context.</li>
+        <li>Produces highly accurate predictions.</li>
+        <li>Supports parallel processing.</li>
+        <li>Performs well on complex NLP tasks.</li>
+    </ul>
+    <p><strong>Limitations:</strong></p>
+    <ul>
+        <li>Requires powerful hardware.</li>
+        <li>Consumes significant memory.</li>
+        <li>Training is computationally expensive.</li>
+    </ul>
+    <p><strong>Applications:</strong></p>
+    <ul>
+        <li>Gujarati Predictive Text</li>
+        <li>GPT and BERT Models</li>
+        <li>Machine Translation</li>
+        <li>Text Generation</li>
+    </ul>
+</div>
+
     </div>
 </body>
 </html>
