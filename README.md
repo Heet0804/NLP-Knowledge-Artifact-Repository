@@ -62,13 +62,6 @@ The repository has been developed as a static website and is hosted using **GitH
 
 ---
 
-## Application Domain
-
-**Autocomplete and Predictive Text (Gujarati Language)**
-
-The repository demonstrates how NLP techniques such as tokenization, stop-word removal, N-grams, contextual embeddings, transformer models, and word embeddings contribute to building efficient autocomplete and predictive text systems for Gujarati language users.
-
----
 
 ## Technologies Used
 
