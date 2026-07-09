@@ -10,7 +10,7 @@
 
 ## Project Overview
 
-This repository presents a structured Knowledge Artifact Repository developed as part of the Week 1 curriculum of the Natural Language Processing course. The project focuses on the application **"Autocomplete and Predictive Text for the Gujarati Language"** and demonstrates the core NLP concepts required for building intelligent text prediction systems.
+This repository presents a structured Knowledge Artifact Repository developed as part of the Week 1 curriculum of the Natural Language Processing course. The project focuses on the application and demonstrates the core NLP concepts required for building intelligent text prediction systems.
 
 The repository has been developed as a static website and is hosted using **GitHub Pages**.
 
